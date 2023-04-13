@@ -1,0 +1,27 @@
+import award05 from "../asset/award05.png";
+import bg from "../asset/bg.png";
+import chef from "../asset/chef.png";
+import findus from "../asset/findus.png";
+import G from "../asset/G.png";
+import gallery01 from "../asset/gallery01.png";
+import gallery02 from "../asset/gallery02.png";
+import gallery03 from "../asset/gallery03.png";
+import gallery04 from "../asset/gallery04.png";
+import gericht from "../asset/gericht.png";
+import k from "../asset/k.svg";
+import knife from "../asset/knife.png";
+import knife2 from "../asset/knife2.png";
+import laurels from "../asset/laurels.png";
+import logo from "../asset/logo.png";
+import menu from "../asset/menu.png";
+import overlaybg from "../asset/overlaybg.png";
+import quote from "../asset/quote.png";
+import sign from "../asset/sign.png";
+import spoon from "../asset/spoon.svg";
+import steak from "../asset/steak.jpg";
+import welcome from "../asset/welcome.png";
+import award01 from "../asset/award01.png";
+import award02 from "../asset/award02.png";
+import award03 from "../asset/award03.png";
+
+export default { award05, bg, chef, findus, G, gallery01, gallery02, gallery03, gallery04, gericht, k, knife, knife2, laurels, logo, menu, overlaybg, quote, sign, spoon, steak, welcome, award01, award02, award03 };

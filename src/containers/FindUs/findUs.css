@@ -1,0 +1,12 @@
+.find-us__openTime dt {
+  font-size: 1.3rem;
+  color: var(--color-gold);
+  margin-bottom: 3rem;
+}
+.find-us__openTime dd {
+  font-family: var(--sub-font-family);
+  letter-spacing: 0.1rem;
+}
+#find-us .find-us__openTime {
+  margin-bottom: 3rem;
+}

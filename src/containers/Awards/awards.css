@@ -1,0 +1,25 @@
+.awards__title {
+  color: var(--color-gold);
+  font-size: 3rem;
+}
+.awards__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 2rem;
+}
+.awards__list-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 2rem;
+}
+.awards__list-item-img {
+  grid-row: 1 / 3;
+}
+.awards__list-item > h3 {
+  font-size: 2rem;
+  color: var(--color-gold);
+}
+.awards__list-item > p {
+  color: #fff;
+  font-family: var(--sub-font-family);
+}

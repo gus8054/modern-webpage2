@@ -1,0 +1,20 @@
+#chef .media__content > img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.chef__name {
+  color: var(--color-gold);
+  font-size: 2rem;
+}
+.chef__job {
+  letter-spacing: 0.1rem;
+  font-family: var(--sub-font-family);
+  margin-bottom: 5rem;
+}
+.chef__sign-img {
+  width: 20rem;
+}

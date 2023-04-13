@@ -1,0 +1,42 @@
+.media {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.media__title {
+  color: var(--color-gold);
+  font-size: 4em;
+  letter-spacing: 0.2rem;
+  overflow-wrap: break-word;
+}
+.media__content {
+  letter-spacing: 0.1rem;
+  font-family: var(--sub-font-family);
+  margin-bottom: 3rem;
+}
+.media__img {
+  background: var(--color-gold);
+  padding: 1rem;
+  line-height: 0;
+  width: 100%;
+}
+.chef__sign-img {
+  max-width: 100%;
+}
+@media screen and (56rem <= width) {
+  .media {
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: 5%;
+  }
+  .media__text-container {
+    width: 40%;
+  }
+  .media__img {
+    width: 55%;
+  }
+}
